@@ -1,3 +1,4 @@
+def fun():
 a=0
 b=1
 print("THE SERIES:",a,b,end=' ')
@@ -6,3 +7,4 @@ for i in range(13):
     a=b
     b=c
     print(c,end=' ')    
+fun()
